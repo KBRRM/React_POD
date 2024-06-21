@@ -26,7 +26,7 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a73149;
+  background-color: #a90e2d;
   min-height: 100vh;
   padding: 20px;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .wallet-info {
-  background-color: #b71c1c;
+  background-color: #ba1010;
   padding: 10px;
   color: white;
 }
@@ -534,7 +534,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a591c1;
+  background-color: #b4a8c5;
   color: white;
   padding: 10px 20px;
 }
@@ -638,3 +638,124 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+/* AddCash */
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance .total, .balance .cash, .balance .bonus {
+    text-align: center;
+}
+
+.amount {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.payment-options, .payment-method {
+    margin: 10px 0;
+}
+
+.options, .methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.option, .method {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    min-width: 45%;
+}
+
+.option.selected, .method.selected {
+    border-color: #007bff;
+}
+
+.option span, .method span {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+}
+
+.add-cash-button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+
+
+

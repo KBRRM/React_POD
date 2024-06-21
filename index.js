@@ -8,7 +8,9 @@ import './index.css';
 //import HomePage from './component/Homepage';
 //import Playgame from './component/Playgame';
 //import Profile from './component/Profile';
-import Wallet from './component/Wallet';
+//import Wallet from './component/Wallet';
+import AddCash from './component/Addcash';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +20,9 @@ root.render(
     {/*<Playgame></Playgame>*/}
       {/*<HomePage></HomePage>*/}
        {/*<Profile></Profile>*/}
-       <Wallet></Wallet>
+       {/* <Wallet></Wallet>*/}
+       <AddCash></AddCash>
+      
       
   </React.StrictMode>
 );
